@@ -76,7 +76,7 @@ public:
         cout << ptr->info << " ";
         inorder(ptr->rightchild);
     }
-
+// Tambahkan fungsi traversal preorder pada Binary Tree
     void preorder(node *ptr) {
         if (isEmpty()) {
             cout << "Tree is empty" << endl;
