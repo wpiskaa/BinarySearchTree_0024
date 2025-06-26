@@ -63,7 +63,7 @@ public:
         else
             parent->rightchild = newNode;
     }
-
+// Tambahkan fungsi traversal inorder pada Binary Tree
     void inorder(node *ptr) {
         if (isEmpty()) {
             cout << "Tree is empty" << endl;
