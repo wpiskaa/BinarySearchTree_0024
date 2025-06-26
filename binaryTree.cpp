@@ -34,7 +34,7 @@ public:
                 currentNode = currentNode->rightchild;
         }
     }
-
+// Tambahkan fungsi insert dengan pengecekan duplikat
     void insert() {
         int x;
         cout << "Masukkan nilai: ";
