@@ -89,7 +89,7 @@ public:
         preorder(ptr->leftchild);
         preorder(ptr->rightchild);
     }
-
+// Tambahkan fungsi traversal postorder pada Binary Tree
     void postorder(node *ptr) {
         if (isEmpty()) {
             cout << "Tree is empty" << endl;
