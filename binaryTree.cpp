@@ -31,5 +31,8 @@ class BinaryTree
         int x;
         cout << "Masukkan nilai: ";
         cin >> x;
+
+        //Step 1: Allocate memory for the new node
+        node *newNode = new node();
     }
 };
